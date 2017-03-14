@@ -36,7 +36,7 @@ for line in lines:
 
     match = dom_pattern.search(line)
     if match:
-        domain = match.group(1).replace("http://", '')
+        domain = match.group(1).replace("http://", '').replace("https://", '')
         file_name = ''
         if mult:
             file_name = mult_dir + domain + '.csv'

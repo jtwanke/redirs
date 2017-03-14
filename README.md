@@ -26,3 +26,6 @@ The file may also have two columns. The second column must be the expected url t
 
 You can also supply the script with a directory full of files with the layouts specified above, such as <br>
 `python redirthr.py /dir/of/redirections/`
+
+When running tests, you'll notice the output isn't guaranteed to be in the same order as the input. This script is multithreaded, so to aid with organization of results, the author has added a script for post-test processing. To use the cleanup script try running:
+`python redirthr.py test.csv | python clean.py`

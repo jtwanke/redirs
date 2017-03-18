@@ -11,7 +11,7 @@ Setup
 * Install Pip if you don't already have it (https://pip.pypa.io/en/stable/installing/)
 * Install Requests, a library that makes http requests easy (http://requests.readthedocs.io/en/master/user/install/#install)
 
-USAGE
+Usage
 -----
 
 To try it out, run `python redirthr.py test.csv` if you downloaded the sample redirections file with the script. <br>
